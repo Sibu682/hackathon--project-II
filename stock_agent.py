@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
 
 CAUSES = ["theft_suspected", "expired_or_spoiled", "damaged", "unrecorded_delivery",
           "miscount", "mislocated", "pricing_error", "unclear",
