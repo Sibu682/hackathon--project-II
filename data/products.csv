@@ -1,0 +1,56 @@
+sku,product_name,category,supplier,unit_cost_zar,selling_price_zar,reorder_level,reorder_qty,shelf_life_days,location
+BRD001,White Bread 700g,Bakery,Sunrise Bakery,13.5,17.99,15,40,4,Fridge/Counter
+BRD002,Brown Bread 700g,Bakery,Sunrise Bakery,13.8,18.49,10,30,4,Fridge/Counter
+BRD003,Vetkoek (each),Bakery,Mama Dlamini,3.0,6.0,10,30,2,Counter
+MLK001,Fresh Milk 1L,Dairy,Karoo Dairy,15.2,19.99,12,36,6,Fridge
+MLK002,Long-life Milk 1L,Dairy,Karoo Dairy,14.5,18.99,12,36,180,Shelf A
+MLK003,Maas 1L,Dairy,Karoo Dairy,19.0,26.99,6,18,10,Fridge
+EGG001,Eggs Tray of 30,Dairy,Farmfresh Eggs,52.0,69.99,5,15,21,Shelf A
+MAR001,Margarine 500g tub,Dairy,Karoo Dairy,27.0,34.99,6,18,60,Fridge
+MLM001,Maize Meal 5kg,Staples,Unity Wholesale,42.0,54.99,10,30,365,Shelf B
+MLM002,Maize Meal 10kg,Staples,Unity Wholesale,79.0,99.99,6,18,365,Shelf B
+RIC001,Rice 2kg,Staples,Unity Wholesale,34.0,44.99,8,24,365,Shelf B
+SUG001,White Sugar 2.5kg,Staples,Unity Wholesale,48.0,62.99,6,18,365,Shelf B
+SUG002,Brown Sugar 2.5kg,Staples,Unity Wholesale,50.0,64.99,4,12,365,Shelf B
+FLR001,Cake Flour 2.5kg,Staples,Unity Wholesale,38.0,49.99,5,15,365,Shelf B
+OIL001,Sunflower Oil 750ml,Staples,Unity Wholesale,39.0,49.99,6,18,365,Shelf B
+OIL002,Sunflower Oil 2L,Staples,Unity Wholesale,92.0,114.99,4,12,365,Shelf B
+SLT001,Table Salt 1kg,Staples,Unity Wholesale,8.5,12.99,5,20,999,Shelf B
+TEA001,Rooibos Tea 40s,Staples,Unity Wholesale,24.0,32.99,5,15,365,Shelf C
+TEA002,Black Tea Bags 100s,Staples,Unity Wholesale,33.0,44.99,5,15,365,Shelf C
+COF001,Instant Coffee 200g,Staples,Unity Wholesale,58.0,76.99,4,12,365,Shelf C
+CAN001,Pilchards in Tomato 400g,Canned,Unity Wholesale,19.5,26.99,8,24,730,Shelf C
+CAN002,Baked Beans 410g,Canned,Unity Wholesale,14.0,19.99,6,24,730,Shelf C
+CAN003,Chakalaka 410g,Canned,Unity Wholesale,15.5,21.99,6,18,730,Shelf C
+CAN004,Peanut Butter 400g,Canned,Unity Wholesale,28.0,37.99,5,15,365,Shelf C
+NDL001,2-Minute Noodles Chicken,Staples,Unity Wholesale,3.8,5.99,20,100,270,Shelf C
+SAU001,Tomato Sauce 700ml,Staples,Unity Wholesale,24.0,32.99,4,12,365,Shelf C
+SPC001,All-in-One Spice 100g,Staples,Unity Wholesale,18.0,25.99,5,15,365,Shelf C
+DRK001,Coke 330ml Can,Beverages,Cold Chain Dist.,8.2,13.99,24,96,180,Fridge
+DRK002,Coke 2L,Beverages,Cold Chain Dist.,21.0,29.99,12,36,180,Shelf D
+DRK003,Fanta Orange 2L,Beverages,Cold Chain Dist.,21.0,29.99,8,24,180,Shelf D
+DRK004,Sprite 500ml,Beverages,Cold Chain Dist.,9.5,15.99,12,48,180,Fridge
+DRK005,Stoney Ginger Beer 2L,Beverages,Cold Chain Dist.,21.0,29.99,6,24,180,Shelf D
+DRK006,Oros Orange 1L,Beverages,Cold Chain Dist.,33.0,43.99,5,15,365,Shelf D
+DRK007,Still Water 500ml,Beverages,Cold Chain Dist.,4.5,9.99,24,96,365,Fridge
+DRK008,Energy Drink 500ml,Beverages,Cold Chain Dist.,12.5,19.99,12,48,365,Fridge
+SNK001,Salted Chips 36g,Snacks,Snack Direct,6.2,9.99,24,96,90,Counter
+SNK002,Corn Snack 20g,Snacks,Snack Direct,3.1,5.99,24,96,90,Counter
+SNK003,Cheese Puffs 100g,Snacks,Snack Direct,10.5,15.99,10,40,90,Counter
+SNK004,Sweets Jar (per 10),Snacks,Snack Direct,4.0,7.0,15,60,365,Counter
+SNK005,Chocolate Slab 80g,Snacks,Snack Direct,17.0,24.99,8,24,270,Counter
+SNK006,Biscuits Assorted 200g,Snacks,Snack Direct,13.0,18.99,8,24,180,Shelf D
+MET001,Frozen Chicken Pieces 2kg,Frozen,Cold Chain Dist.,69.0,89.99,4,12,120,Freezer
+MET002,Polony 1kg,Frozen,Cold Chain Dist.,36.0,47.99,4,10,30,Fridge
+HSE001,Laundry Soap Bar 250g,Household,Unity Wholesale,10.5,15.99,8,30,999,Shelf E
+HSE002,Washing Powder 1kg,Household,Unity Wholesale,39.0,52.99,5,15,999,Shelf E
+HSE003,Dishwashing Liquid 750ml,Household,Unity Wholesale,21.0,29.99,5,15,999,Shelf E
+HSE004,Bleach 750ml,Household,Unity Wholesale,16.0,23.99,4,12,999,Shelf E
+HSE005,Candles Pack of 6,Household,Unity Wholesale,18.0,27.99,6,18,999,Shelf E
+HSE006,Matches Box,Household,Unity Wholesale,1.6,3.5,15,60,999,Counter
+HSE007,Paraffin 1L,Household,Unity Wholesale,16.5,24.99,5,15,999,Back Store
+PCR001,Bath Soap 175g,Personal Care,Unity Wholesale,8.5,13.99,8,30,999,Shelf E
+PCR002,Petroleum Jelly 250ml,Personal Care,Unity Wholesale,20.0,28.99,4,12,999,Shelf E
+PCR003,Toothpaste 100ml,Personal Care,Unity Wholesale,16.0,23.99,5,15,999,Shelf E
+PCR004,Roll-on Deodorant 50ml,Personal Care,Unity Wholesale,18.0,26.99,4,12,999,Shelf E
+PCR005,Toilet Paper 2-pack,Personal Care,Unity Wholesale,14.0,21.99,6,24,999,Shelf E

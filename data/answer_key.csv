@@ -1,0 +1,21 @@
+sku,system_qty,actual_qty,variance_units,cause,note
+DRK001,20,6,-14,theft_suspected,Cans disappearing from fridge near till; recurring on weekends
+SNK002,77,68,-9,theft_suspected,Small high-value impulse items
+SNK005,23,17,-6,theft_suspected,Chocolate near door
+BRD002,10,7,-3,spoilage,"Spoiled or thrown out, not written off"
+MAR001,7,2,-5,expired,"Past sell-by date, not written off"
+BRD001,8,4,-4,expired,Stale bread not written off
+MLK003,4,2,-2,expired,"Past sell-by date, not written off"
+DRK003,3,0,-3,damaged,"Dropped crate, bottles broken"
+EGG001,6,4,-2,damaged,Cracked trays not written off
+MLM001,0,12,12,unrecorded_delivery,Delivery 2 days ago not captured in system
+NDL001,67,107,40,unrecorded_delivery,"Cash-purchase from cash-and-carry, no invoice captured"
+RIC001,15,18,3,miscount_or_unrecorded_return,Customer return not captured
+SUG001,9,5,-4,miscount,Count looks short; recount recommended
+SUG002,6,4,-2,pricing_or_ring_up_error,Rung up at wrong price/size at till
+DRK004,34,16,-18,theft_suspected,Matches sold loose without ringing up
+CAN001,0,5,5,mislocated,"Extra units found in back store, not on shelf; count both locations"
+MLM002,8,5,-3,miscount,"Heavy item, count tally error"
+UNK001,0,11,11,not_in_system,New product on shelf with no SKU
+DRK002,0,0,0,duplicate_line,Same SKU counted twice; should not double count
+HSE004,4,,,not_counted,SKU missing from count sheet; agent should flag
