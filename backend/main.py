@@ -358,7 +358,7 @@ def run_agent_endpoint(req: RunAgentRequest):
     if not _agent_running.acquire(blocking=False):
         raise HTTPException(409, "Agent is already running. Try again shortly.")
 
-    model = req.model or os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+    model = req.model or os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
     def stream():
         try:

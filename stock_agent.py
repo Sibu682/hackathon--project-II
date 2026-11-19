@@ -25,7 +25,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+
+try:
+    from google import genai
+    from google.genai import types
+    _api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not _api_key:
+        sys.exit("No API key found. Set GEMINI_API_KEY in your .env file.\nGet a free key at https://aistudio.google.com/apikey")
+    client = genai.Client(api_key=_api_key)
+except ImportError:
+    sys.exit("Missing package. Run:  pip install google-genai")
 
 CAUSES = ["theft_suspected", "expired_or_spoiled", "damaged", "unrecorded_delivery",
           "miscount", "mislocated", "pricing_error", "unclear",
@@ -169,17 +179,6 @@ def make_tools(D, evidence):
 
 # ---------------------------------------------------------------- the agent (Gemini)
 def run_agent(evidence, tools, model):
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-    if not api_key:
-        sys.exit("No API key found. Set it first:\n  export GEMINI_API_KEY='your-key'   (Mac/Linux)\n"
-                 "  $env:GEMINI_API_KEY='your-key'      (Windows PowerShell)\nGet a free key at https://aistudio.google.com/apikey")
-    try:
-        from google import genai
-        from google.genai import types
-    except ImportError:
-        sys.exit("Missing package. Run:  pip install google-genai pandas")
-
-    client = genai.Client(api_key=api_key)
     config = types.GenerateContentConfig(
         system_instruction=SYSTEM_PROMPT,
         tools=tools,                       # the SDK runs the tool-calling loop for us
